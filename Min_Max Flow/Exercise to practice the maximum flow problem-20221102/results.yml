@@ -1,0 +1,58 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: x10
+  Lower bound: 60.0
+  Upper bound: 60.0
+  Number of objectives: 1
+  Number of constraints: 13
+  Number of variables: 10
+  Number of binary variables: 0
+  Number of integer variables: 0
+  Number of continuous variables: 10
+  Number of nonzeros: 22
+  Sense: maximize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Return code: 0
+  Message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
+  Termination condition: optimal
+  Termination message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
+  Wall time: 0.0010013580322265625
+  Error rc: 0
+  Time: 0.17507266998291016
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: 0.0
+  Status: optimal
+  Message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
+  Objective:
+    objective:
+      Value: 60
+  Variable:
+    flow[node0,node1]:
+      Value: 20
+    flow[node0,node2]:
+      Value: 30
+    flow[node0,node3]:
+      Value: 10
+    flow[node1,node4]:
+      Value: 20
+    flow[node2,node3]:
+      Value: 10
+    flow[node2,node4]:
+      Value: 20
+    flow[node3,node4]:
+      Value: 20
+  Constraint: No values

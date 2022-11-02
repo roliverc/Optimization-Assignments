@@ -1,0 +1,15 @@
+set N := node0 node1 node2 node3 node4;
+set A := (node0,node1) (node0,node2) (node0,node3) (node1,node2) (node1,node4) (node2,node3) (node2,node4) (node3,node2) (node3,node4);
+    
+param source := node0;
+param sink := node4;
+param: capacity :=
+node0 node1 20
+node0 node2 30
+node0 node3 10
+node1 node2 40
+node1 node4 30
+node2 node3 10
+node2 node4 20
+node3 node2 5
+node3 node4 20;
