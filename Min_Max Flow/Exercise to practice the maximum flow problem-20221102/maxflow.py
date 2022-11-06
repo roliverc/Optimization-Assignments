@@ -23,7 +23,7 @@ model.capacity = Param(model.A) # we cannot exceed these flow capacity limits
 # The flow over each arc
 # Number of decision variables = number of arcs. In our case, we have 9 arcs. This means that we have 9 decision variables (x01,x02,x03,x12,x14,x23,x24,x32,x34)
 # model.A contains all arcs in an ordered way
-model.flow = Var(model.A) 
+model.flow = Var(model.A, within=NonNegativeReals) 
 
 #############################
 #  'Objective'

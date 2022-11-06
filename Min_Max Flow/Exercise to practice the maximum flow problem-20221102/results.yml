@@ -25,9 +25,9 @@ Solver:
   Message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
   Termination condition: optimal
   Termination message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
-  Wall time: 0.010000228881835938
+  Wall time: 0.0
   Error rc: 0
-  Time: 0.19041228294372559
+  Time: 0.1795361042022705
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
